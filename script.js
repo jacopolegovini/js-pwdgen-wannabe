@@ -8,15 +8,15 @@ Concatenazione stringhe
 Produzione output
 */
 
-const passwordGenerator = document.getElementById('password-generator');
-console.log(passwordGenerator)
+// const passwordGenerator = document.getElementById('password-generator');
+// console.log(passwordGenerator)
 
-const randomNumber = Math.round(Math.random() * 100);
-console.log(randomNumber)
+// const randomNumber = Math.round(Math.random() * 100);
+// console.log(randomNumber)
 
-const firstname = prompt('Qual è il tuo nome?', 'jacopo');
-const lastname = prompt('Qual è il tuo cognome?', 'legovini');
-const favoriteColor = prompt('Qual è il tuo colore preferito?', 'blue');
+// const firstname = prompt('Qual è il tuo nome?', 'jacopo');
+// const lastname = prompt('Qual è il tuo cognome?', 'legovini');
+// const favoriteColor = prompt('Qual è il tuo colore preferito?', 'blue');
 
-passwordGenerator.innerText = firstname + lastname + favoriteColor + randomNumber;
+// passwordGenerator.innerText = firstname + lastname + favoriteColor + randomNumber;
 

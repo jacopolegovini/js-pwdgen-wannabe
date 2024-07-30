@@ -1,0 +1,32 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    height: 500px;
+}
+
+/* Utilities */
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #D0DEED;
+
+}
+
+/* Header */
+.color-background {
+    background-color: #D0DEED;
+}
