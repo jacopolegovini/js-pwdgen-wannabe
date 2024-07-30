@@ -11,7 +11,8 @@ Produzione output
 const passwordGenerator = document.getElementById('password-generator');
 console.log(passwordGenerator)
 
-const randomNumber = 21;
+const randomNumber = Math.round(Math.random() * 100);
+console.log(randomNumber)
 
 const firstname = prompt('Qual è il tuo nome?', 'jacopo');
 const lastname = prompt('Qual è il tuo cognome?', 'legovini');
