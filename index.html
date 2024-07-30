@@ -14,20 +14,22 @@
      <script defer src="script.js"></script>
 
 </head>
-<body class="container color-background">
-    <header>
-        <nav class="row">
-            <div class="col nav-left row">
-                <div class="logo col">LOGO</div>
-                <div class="why col">Perchè noi?</div>
-                <div class="prices col">Prezzi</div>
-            </div>
-            <div class=" col nav-right row justify-content-end">
-                <div class="log-in col text-end">Log-In</div>
+<body>
+    <header class="color-background">
+        <nav class="container">
+            <div class="nav-left-right row align-items-center justify-content-between">
+                <div class="col-6 nav-left row gap-3 justify-content-between">
+                    <div class="btn btn-light logo col-auto"><a href="#">LOGO</a></div>
+                    <div class="btn btn-light why col-auto"><a href="#">Perchè noi?</a></div>
+                    <div class="btn btn-light prices col-auto"><a href="#">Prezzi</a></div>
+                </div>
+                <div class="col-6 nav-right row justify-content-end">
+                    <div class="btn btn-light log-in col-auto text-end"><a href="#">Log-In</a></div>
+                </div>
             </div>
         </nav>
     </header>
-    <main class="card">
+    <main class="card container mt-3">
         <p>Here's your password</p>
         <div id="password-generator"></div>
     </main>

@@ -1,13 +1,21 @@
 /* General */
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
 }
 
 h1 {
     text-align: center;
+}
+
+header {
+    height: 80px;
+}
+
+nav {
+    height: 100%;
 }
 
 main {
@@ -16,17 +24,17 @@ main {
 
 /* Utilities */
 
-.container {
-    max-width: 1040px;
-    margin: 0 auto;
-}
-
 .card {
     background-color: #D0DEED;
 
 }
 
 /* Header */
+
 .color-background {
     background-color: #D0DEED;
+}
+
+.nav-left-right {
+    height: 100%;
 }
